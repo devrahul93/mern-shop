@@ -15,6 +15,7 @@ import products from '../Products'
 const ProductScreen = () => {
   const { id } = useParams()
   const product = products.find((p) => p._id === id)
+
   return (
     <>
       <Link className="btn btn-light my-3" to="/">
